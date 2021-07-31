@@ -21,7 +21,6 @@ namespace ConsoleApp1
                 Console.Write(result[i] + " ");
             }
 
-
             int[] insertResult = arrayWorker.InsertValue(commonArray, 4, 54);
             Console.WriteLine();
             for (int i = 0; i < insertResult.Length; i++)
