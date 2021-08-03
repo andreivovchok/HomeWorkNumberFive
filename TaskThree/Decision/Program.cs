@@ -8,8 +8,8 @@ namespace Decision
         static void Main(string[] args)
         {
             Cone cone = new Cone(8, 6);
-            Console.WriteLine(cone.TheSurfaceAreaOfTheConeBase());
-            Console.WriteLine(cone.TheAreaOfTheFullSurfaceOfTheCone());
+            Console.WriteLine($"Площадь основания = {cone.TheSurfaceAreaOfTheConeBase()}");
+            Console.WriteLine($"Полная площадь = {cone.TheAreaOfTheFullSurfaceOfTheCone()}");
 
             
             
